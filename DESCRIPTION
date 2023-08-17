@@ -1,0 +1,58 @@
+Package: cnidariangenomes
+Title: Code for the Nematostella Vectensis and Scolanthus Calimorphus genome assembly and analysis 
+Version: 1.0.0.0000
+Authors@R: 
+    person(given = "Bob",
+           family = "Zimmermann",
+           role = c("aut", "cre"),
+           email = "robert.paul.zimmermann@gmail.com",
+           comment = c(ORCID = "https://orcid.org/0000-0003-2354-0408"))
+Description: Code Used in Figures from the Paper [Sea Anemone Genomes Reveal Ancestral Metazoan Chromosomal Macrosynteny](https://www.biorxiv.org/content/10.1101/2020.10.30.359448v3).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+biocViews:
+Imports:
+    ape,
+    circlize,
+    ComplexHeatmap,
+    clue,
+    distr,
+    dplyr,
+    flextable,
+    forcats,
+    fs,
+    GenomicRanges,
+    ggraph,
+    ggplot2,
+    ggrepel,
+    ggthemes,
+    ggtree,
+    grid,
+    grImport2,
+    IRanges,
+    jpeg,
+    locfit,
+    magick,
+    magrittr,
+    memoise,
+    patchwork,
+    phangorn,
+    pheatmap,
+    phytools,
+    purrr,
+    readr,
+    readxl,
+    rlang,
+    Rsamtools,
+    scales,
+    seriation,
+    stringr,
+    tibble,
+    tidygraph,
+    tidyr,
+    tidytree,
+    tiff,
+    utils,
+    zeallot

@@ -1,0 +1,1 @@
+getSrcDirectory(function(x) {x})
