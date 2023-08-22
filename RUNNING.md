@@ -28,8 +28,9 @@ The workflow for generating the figures from the data is based on [devtools](htt
 2. Install the `devtools` package using `install.packages("devtools")`.
 3. Install the dependencies using `devtools::install_deps()`.
 4. Load the package using `devtools::load_all()`.
-5. Run the scripts in the `vis/` directory. It should be possible to start with a fresh R session for each of the scripts. Run them line-by-line with the current working directory as the top-level directory of this repository.
-6. The figures will be saved in a new `figures/` directory.
+5. Download the supplemental data and decompress into the `data/` directory (location of this TBD; contact authors if not present).
+6. Run the scripts in the `vis/` directory. It should be possible to start with a fresh R session for each of the scripts. Run them line-by-line with the current working directory as the top-level directory of this repository.
+7. The figures will be saved in a new `figures/` directory.
 
 ## Details
 
