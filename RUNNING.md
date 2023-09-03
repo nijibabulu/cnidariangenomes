@@ -7,6 +7,7 @@
     - [Details](#details)
         - [Ancestral Linkgage Groups](#ancestral-linkgage-groups)
         - [Genomes](#genomes)
+        - [ATAC Peak Analysis](#atac-peak-analysis)
         - [Orthologs](#orthologs)
         - [Molecular Clock](#molecular-clock)
         - [Genome-genome alignment](#genome-genome-alignment)
@@ -43,6 +44,19 @@ For many scripts, the `infer_cached_algs()` function is called, which either ret
 ### Genomes
 
 The download locations of the non-Edwardsiid genomes are listed in the paper, but for convenience we provide the genome annotation and amino acid sequence files in the `data/genomes` directory. For inferring ALGs, the function `load_cached_gene_positions()`. The function can serve as a guide to the directory.
+
+### ATAC Peak Analysis
+
+The ATAC peaks were analyzed using the script in `vis/F4de_comparison_atacseq.R`. The data are available in the `data/atac/` and `data/refs` directory. Unlike the other scripts, it requires installing some genomes available on BioConductor. This can be done with the following command:
+
+```R
+BiocManager::install(c("TxDb.Mmusculus.UCSC.mm10.knownGene",
+                       "TxDb.Dmelanogaster.UCSC.dm6.ensGene",
+                       "TxDb.Celegans.UCSC.ce11.refGene",
+                       "TxDb.Hsapiens.UCSC.hg38.knownGene"))
+```
+
+This script is written by Juan Montenegro Cabrera <jdmontenegroc@gmail.com>.
 
 ### Orthologs
 
