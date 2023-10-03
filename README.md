@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/678549182.svg)](https://zenodo.org/badge/latestdoi/678549182)
+
 ## Edwardsiid Genomes Paper Code
 
 This project contains the code used in creating most of the figures in the 
