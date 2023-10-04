@@ -14,8 +14,7 @@ p <-
   ggsci::scale_fill_d3() +
   ggsci::scale_color_d3() +
   ggplot2::labs(x="Minimum syntenic block length", y="Microsyntenic blocks", fill="", col="") +
-  ggplot2::theme(text=ggplot2::element_text(family="Arial", size=12),
-                 legend.position="top",
+  ggplot2::theme(legend.position="top",
                  axis.text.x = ggplot2::element_blank())
 
-save_fig(p, "F4d_microsynteny", width = 4, height = 6.4)
+save_fig(p, "F4f_microsynteny", width = 4, height = 6.4)
