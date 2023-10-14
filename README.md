@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/678549182.svg)](https://zenodo.org/badge/latestdoi/678549182)
+[![DOI](https://zenodo.org/badge/678549182.svg)](https://zenodo.org/doi/10.5281/zenodo.8402538)
 
 ## Edwardsiid Genomes Paper Code
 
