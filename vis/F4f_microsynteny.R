@@ -11,7 +11,7 @@ p <-
                         linewidth=1.5, ggplot2::aes(col=Clade)) +
   ggplot2::scale_y_continuous(trans=scales::pseudo_log_trans(),
                               breaks = c(0, 10, 100, 1000)) +
-  ggsci::scale_fill_d3() +
+  ggsci::scale_fil_d3() +
   ggsci::scale_color_d3() +
   ggplot2::labs(x="Minimum syntenic block length", y="Microsyntenic blocks", fill="", col="") +
   ggplot2::theme(legend.position="top",
